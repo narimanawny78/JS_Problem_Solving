@@ -8,6 +8,16 @@ Note: input will never be an empty string
 
 //Solution
 
+// function fakeBin(x){
+//     for(let i=0; i>= x.length; i++){
+//     if(x >= 5){
+//         x.replace(1);
+//     }else{
+//         x.replace(0);
+//     }
+//     }
+//     return x;
+// }
 
 function fakeBin(x){
     return x.split('').map((n)=>n < '5' ? '0': '1').join('');
