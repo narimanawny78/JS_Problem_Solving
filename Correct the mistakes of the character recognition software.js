@@ -24,7 +24,7 @@ function correct(string)
 }
 console.log(correct("L0ND0N"));
 
-
+//Second solution
 
 function correct(string)
 {
